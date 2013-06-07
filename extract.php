@@ -1,7 +1,5 @@
 <?php
 
-
-
 function dir_get_contents($root){
     $dirs = array();
     foreach(scandir($root) as $file){
@@ -52,6 +50,5 @@ foreach($recordings as $id=>$files){
     }
     
 }
-
 
 ?>
